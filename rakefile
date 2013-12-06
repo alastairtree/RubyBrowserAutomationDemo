@@ -1,0 +1,14 @@
+require 'yaml'
+require 'cucumber/rake/task'
+
+
+# use this as a pre-task to make sure the environment has
+# the required dependencies
+task :bundle_install do
+  system 'bundle install'
+end
+
+
+Cucumber::Rake::Task.new("default"  => :bundle_install) do |t|
+
+end

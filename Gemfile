@@ -1,0 +1,11 @@
+source 'http://10.16.7.35:910'
+source 'https://rubygems.org'
+
+gem 'rake'
+gem 'cucumber'
+gem 'rspec'
+gem 'watir'
+gem 'mini_magick', '3.5.0'
+gem 'selenium-webdriver', '2.34.0'
+gem 'win32ole-pp'
+gem 'zip'
